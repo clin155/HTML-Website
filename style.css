@@ -1,0 +1,87 @@
+/* CSS kachow */
+body {
+	background-color:white;
+}
+h1 {
+  color: black;
+  font-size: 300%;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: verdana;
+  font-size: 200%;
+  display: inline-block;
+  padding-top: 50px
+  margin: 10px;
+}
+h4 {
+  color: black;
+  font-family: verdana;
+  font-size: 200%;
+  display: inline-block;
+  padding-top: 50px;
+  margin: 10px;
+  bottom: 600px;
+};
+}
+p  {
+  color: black;
+  font-family: verdana;
+  font-size: 160%;
+  padding-top: 30px
+}
+
+.SmartImage--background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.SmartImage {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.title {
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+div.picture1 {
+   width:100%; /*width of your image*/
+   height:200px; /*height of your image*/
+   background-image:url('genericarchit.jpg');
+   margin:0; /* If you want no margin */
+   padding:50px; /*if your want to padding */
+}
+
+div.typewriterbackground {
+
+}
+.typed-cursor {
+  color: black;
+  font-family: verdana;
+  font-size: 200%;
+  display: inline-block;
+}
+
+.form-nivel {
+    width: 160px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.form-nivel2 {
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
