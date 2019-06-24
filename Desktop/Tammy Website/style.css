@@ -61,7 +61,9 @@ div.linkStyle {
   margin-bottom: 1%;
   margin-top: 1%;
 }
-span.link1 {
+
+
+button.link1 {
   margin-left: 2.2vw;
   margin-right: 2.2vw;
   top: 10%;
@@ -72,35 +74,14 @@ span.link1 {
   border-style: dotted;
   border-color: white;
   border-width: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
 }
 
-span.link2 {
-  margin-left: 2.2vw;
-  margin-right: 2.2vw;
-  top: 10%;
-  float: right;
-  width: 20vw;
-  margin-top: inherit;
-  margin-bottom: inherit;
-  border-style: dotted;
-  border-color: white;
-  border-width: 0
-}
-
-span.link3 {
-  margin-left: 2.2vw;
-  margin-right: 2.2vw;  
-  float: right;
-  top: 10%;
-  width: 20vw;
-  margin-top: inherit;
-  margin-bottom: inherit;
-  border-style: dotted;
-  border-color: white;
-  border-width: 0;
-}
-
-span.link4 {
+button.link2 {
+  cursor: pointer;
   margin-left: 2.2vw;
   margin-right: 2.2vw; 
   float: left;
@@ -111,7 +92,30 @@ span.link4 {
   border-style: dotted;
   border-color: white;
   border-width: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
 }
+
+button.link3 {
+
+  margin-left: 2.2vw;
+  margin-right: 2.2vw;
+  top: 10%;
+  float: right;
+  width: 20vw;
+  margin-top: inherit;
+  margin-bottom: inherit;
+  border-style: dotted;
+  border-color: white;
+  border-width: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
+}
+
 
 div.typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -133,13 +137,6 @@ a {
 
 }
 
-.linkStyle a:hover {
-     text-decoration:none;
-     text-shadow: 1px 1px 1px #555;
-     cursor: pointer;
-     color: rgb(178, 178, 178);
-}
-
 hr {
 align-self: center;
 width: 75%;
@@ -147,7 +144,6 @@ margin-left: auto;
 margin-right: auto;
 height: 1px;
 background-color:white;
-opcaity: 0.5;
 }
 
 /* The typing effect */
@@ -217,4 +213,12 @@ input[type=text] {
   box-sizing: border-box;
   font-size: 20px;
 
+}
+
+button {
+  outline: none;
+}
+
+button:hover, .dropbtn {
+background-color: rgb(20, 58, 114);
 }

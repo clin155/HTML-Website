@@ -4,26 +4,40 @@
     	<meta charset=utf-8 />
         <title>Tammy Website</title>
         <link href="style.css" rel="stylesheet" type="text/css">
-           </head>	
+        <link rel="stylesheet" type="text/css" href="newStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     	<script type="text/javascript" src="script.js"></script>
+     	<script type="text/javascript">
+     		var i= 0;
+     	</script>
+    </head>	
   <body style="display: flex; height: 100%; flex-direction: column" class ="imgContainer">
  	<div class="backgroundColor">
 	    <div class= "headerStyle">Innovative Architecture</div>
 	    <hr>
 	    <div class="linkStyle">
-	    	<span class="link1">
-	    		<a href="www.youtube.com">sketches</a>
-	    	</span>
-	    	<span class="link2">
-	    		<a href="www.google.com">inspirations</a>
-	    	</span>
-	    	<span class="link3">
-	    		<a href="www.yahoo.com">projects</a>
-	    	</span>
-	    	<span class="link4"> 
-	    		<a href="www.google.com">Contact Me</a>
-	    	</span>
-	  	</div>
+
+	    	<button class="link1" onclick="window.location.href='Tammy_website_sketches.html';">
+	    		sketches
+	    	</button>
+	    	<button class="link2" onclick="window.location.href='Tammy_website_inspirations.html';">
+	    		inspirations
+	    	</button>
+
+		    	<button class="dropbtn" onclick="openMenu()">
+	    			contact me
+	    		<i class="fa fa-caret-down"></i>
+	    		</button>
+	    	    <div class="dropdown-content" id="dropdown">
+					<a href="Tammy_website_emailme.html">email me</a>
+					<a href="https://www.linkedin.com/in/tammylinspace">linkedin</a>
+				</div>
+	    	<button class="link3" onclick="window.location.href='Tammy_website_projects.html';">
+	    		projects
+	    	</button>
 	    </div>
+	</div>
     <div style="flex: 1; overflow: auto">
     	<br/>
     	<div class="backgroundColor imgContainer">
