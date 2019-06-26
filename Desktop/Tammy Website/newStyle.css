@@ -111,4 +111,12 @@ button.dropbtn {
   background-color: #ddd;
 }
 
+.fixedPosition {
+	position: fixed;
+}
+
+div.description {
+	 
+}
+
 
